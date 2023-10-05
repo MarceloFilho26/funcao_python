@@ -20,4 +20,5 @@ while resp == "S" or resp == "s":
         resp = input("Opçõa inválida, tente novamente: ")
 print("Programa encerrado!")
 
-#Calcudora em Py utilizando funções e com menu integrado.
+#Calcudora em Py com menu integrado.
+#A função está na biblioteca.

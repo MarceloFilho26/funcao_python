@@ -33,3 +33,7 @@ def cont_vogais(texto):
         if x in "aeiouAEIOU":
             cont += 1
     print(f"O total de vogais é: {cont}")
+
+def estoque(produto, quantidade, valor):
+   vTotal = quantidade * valor
+   return vTotal
