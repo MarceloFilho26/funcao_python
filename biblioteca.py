@@ -46,3 +46,13 @@ def argumento(num1):
             return "P"
         else:
             return "N"
+
+def media(nota1, nota2):
+    res = (nota1 + nota2) / 2
+    return res
+
+def aprovado(n1):
+    if n1 <= 7:
+        print("reprovado.")
+    else:
+        print("aprovado.")
