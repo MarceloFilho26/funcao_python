@@ -40,9 +40,9 @@ def estoque(produto, quantidade, valor):
 
 def argumento(num1):
     if num1 == 0:
-        print("Z")
+        return "Z"
     else:
         if num1 > 0:
-            print("P")
+            return "P"
         else:
-            print("N")
+            return "N"
