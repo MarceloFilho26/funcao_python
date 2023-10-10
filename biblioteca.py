@@ -37,3 +37,12 @@ def cont_vogais(texto):
 def estoque(produto, quantidade, valor):
    vTotal = quantidade * valor
    return vTotal
+
+def argumento(num1):
+    if num1 == 0:
+        print("Z")
+    else:
+        if num1 > 0:
+            print("P")
+        else:
+            print("N")
